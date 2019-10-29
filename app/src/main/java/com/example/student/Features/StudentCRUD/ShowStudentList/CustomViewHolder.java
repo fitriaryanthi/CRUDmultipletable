@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.hellohasan.sqlite_project.R;
+import com.example.student.R;
 
 public class CustomViewHolder extends RecyclerView.ViewHolder {
 

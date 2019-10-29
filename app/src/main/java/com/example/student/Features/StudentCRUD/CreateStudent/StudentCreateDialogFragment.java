@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.hellohasan.sqlite_project.Util.Config;
-import com.hellohasan.sqlite_project.Database.DatabaseQueryClass;
-import com.hellohasan.sqlite_project.R;
+import com.example.student.Util.Config;
+import com.example.student.Database.DatabaseQueryClass;
+import com.example.student.R;
 
 
 public class StudentCreateDialogFragment extends DialogFragment {

@@ -8,9 +8,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.widget.Toast;
 
-import com.hellohasan.sqlite_project.Features.StudentCRUD.CreateStudent.Student;
-import com.hellohasan.sqlite_project.Features.SubjectCRUD.CreateSubject.Subject;
-import com.hellohasan.sqlite_project.Util.Config;
+import com.example.student.Features.StudentCRUD.CreateStudent.Student;
+import com.example.student.Features.SubjectCRUD.CreateSubject.Subject;
+import com.example.student.Util.Config;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
 
@@ -374,4 +374,5 @@ public class DatabaseQueryClass {
 
         return count;
     }
+}
 
