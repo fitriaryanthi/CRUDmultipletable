@@ -10,20 +10,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.hellohasan.sqlite_project.Database.DatabaseQueryClass;
-import com.hellohasan.sqlite_project.Features.StudentCRUD.CreateStudent.Student;
-import com.hellohasan.sqlite_project.Features.StudentCRUD.UpdateStudentInfo.StudentUpdateDialogFragment;
-import com.hellohasan.sqlite_project.Features.StudentCRUD.UpdateStudentInfo.StudentUpdateListener;
-import com.hellohasan.sqlite_project.Features.SubjectCRUD.ShowSubjectList.SubjectListActivity;
-import com.hellohasan.sqlite_project.R;
-import com.hellohasan.sqlite_project.Util.Config;
+import com.example.student.Database.DatabaseQueryClass;
+import com.example.student.Features.StudentCRUD.CreateStudent.Student;
+import com.example.student.Features.StudentCRUD.UpdateStudentInfo.StudentUpdateDialogFragment;
+import com.example.student.Features.StudentCRUD.UpdateStudentInfo.StudentUpdateListener;
+import com.example.student.Features.SubjectCRUD.ShowSubjectList.SubjectListActivity;
+import com.example.student.R;
+import com.example.student.Util.Config;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
 
 import java.util.List;
 
 public class StudentListRecyclerViewAdapter extends RecyclerView.Adapter<CustomViewHolder> {
-
     private Context context;
     private List<Student> studentList;
     private DatabaseQueryClass databaseQueryClass;
